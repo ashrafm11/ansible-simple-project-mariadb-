@@ -1,0 +1,10 @@
+[mariadb]
+name = MariaDB
+baseurl = https://mariadb.mirror.liquidtelecom.com/yum/10.4/centos8-aarch64
+module_hotfixes=1
+gpgkey=https://mariadb.mirror.liquidtelecom.com/yum/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+
+baseurl = http://yum.mariadb.org/10.3/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
